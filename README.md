@@ -1,1 +1,1 @@
-# Michi
+# Michi: Ethena Hackathon
