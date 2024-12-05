@@ -13,7 +13,7 @@ function AddBar({defaultAccount}) {
        <div style={{width:'60px' , height:'60px' , objectFit:'cover'}}>
         <img src={logo} alt="" />
        </div>
-        <p className="font-bold  text-white text-xl"><b style={{color:'#4f46e5'}}>Point</b>Michi</p>
+        <p className="font-bold  text-white text-xl"><b style={{color:'#4f46e5'}}>Michi</p>
       </Link>
       </NavbarBrand>
       <NavbarContent className="links" justify="center">
