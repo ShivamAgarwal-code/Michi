@@ -1,9 +1,9 @@
-import {
+  import {
   channelAdded as channelAddedEvent,
   newUserAdded as newUserAddedEvent,
   pointsUpdated as pointsUpdatedEvent
 } from "../generated/FarcasterPoints/FarcasterPoints"
-import { channelAdded, newUserAdded, pointsUpdated } from "../generated/schema"
+import { userAdded, channelAdded, newUserAdded, pointsUpdated } from "../generated/schema"
 
 export function handlechannelAdded(event: channelAddedEvent): void {
   let entity = new channelAdded(
