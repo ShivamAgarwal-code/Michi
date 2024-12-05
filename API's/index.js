@@ -65,6 +65,7 @@ async function fetchAndProcessChannelIds() {
         const channelCastMap = countChannels(data.result.casts);
         const likesCountMap = new Map();
         const recastsCountMap = new Map();
+        const castsCountMap = new Map();
 
         for (let [channelName, castHashes] of channelCastMap) {
             let totalLikes = 0;
