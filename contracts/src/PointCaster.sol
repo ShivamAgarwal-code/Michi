@@ -13,7 +13,7 @@ contract Michi {
         uint256[] memory _points
     ) public {
         require(_channelId.length == _points.length, "Invalid input");
-        for (uint256 i = 0; i < _channelId.length; i++) {
+        for (uint256 i = 0; i <= _channelId.length - 1; i++) {
             if (!channelExists(_user, _channelId[i])) {
                 addChannel(_user, _channelId[i]);
             }
