@@ -13,6 +13,7 @@ export const calculatePointsSchema = new ActionSchema("calculatePoints", {
   points: SolidityType.UINT,
   fid: SolidityType.UINT,
   followers: SolidityType.UINT,
+  info: SolidityType.STRING,
   following: SolidityType.UINT,
   totalCasts: SolidityType.UINT,
   totalLikes: SolidityType.UINT,
